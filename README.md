@@ -2,7 +2,7 @@
 
 
 
-![image](https://github.com/ToTheMars2/Gitopia_Contributions/assets/109024799/08fbee82-aec0-41dc-a46e-6d54ad04777a)
+![image](https://github.com/ToTheMars2/Gitopia_Mainnet/assets/109024799/107eb340-16bf-4cd7-8a9f-174c7f60cdac)
 
 * [Installing Node: A Step-by-Step Guide](https://github.com/ToTheMars2/Gitopia_Contributions/blob/main/README.md#installing-node-a-step-by-step-guide)
 * [Public Api](https://github.com/ToTheMars2/Gitopia_Contributions/blob/main/README.md#public-api)
