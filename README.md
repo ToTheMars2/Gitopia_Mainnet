@@ -4,10 +4,10 @@
 
 ![image](https://github.com/ToTheMars2/Gitopia_Mainnet/assets/109024799/107eb340-16bf-4cd7-8a9f-174c7f60cdac)
 
-* [Installing Node: A Step-by-Step Guide](https://github.com/ToTheMars2/Gitopia_Contributions/blob/main/README.md#installing-node-a-step-by-step-guide)
-* [Public Api](https://github.com/ToTheMars2/Gitopia_Contributions/blob/main/README.md#public-api)
-* [State Sync](https://github.com/ToTheMars2/Gitopia_Contributions/blob/main/README.md#state-sync)
-* [Snapshot](https://github.com/ToTheMars2/Gitopia_Contributions/blob/main/README.md#snapshot)
+* [Installing Node: A Step-by-Step Guide](https://github.com/ToTheMars2/Gitopia_Mainnet/blob/main/README.md#installing-node-a-step-by-step-guide)
+* [Public Api](https://github.com/ToTheMars2/Gitopia_Mainnet/blob/main/README.md#public-api)
+* [State Sync](https://github.com/ToTheMars2/Gitopia_Mainnet/blob/main/README.md#state-sync)
+* [Snapshot](https://github.com/ToTheMars2/Gitopia_Mainnet/blob/main/README.md#snapshot)
 
 # Installing Node: A Step-by-Step Guide
 
@@ -69,7 +69,7 @@ wget http://176.36.248.34/Gitopia_Mainnet_addrbook.json -O $HOME/.gitopia/config
 ```
 </details>
 
-### Third Stage: Obtaining the Current State of the Blockchain through [Snapshot](https://github.com/ToTheMars2/Gitopia_Contributions/blob/main/README.md#snapshot) or [State Sync](https://github.com/ToTheMars2/Gitopia_Contributions/blob/main/README.md#state-sync) (Optional)
+### Third Stage: Obtaining the Current State of the Blockchain through [Snapshot](https://github.com/ToTheMars2/Gitopia_Mainnet/blob/main/README.md#snapshot) or [State Sync](https://github.com/ToTheMars2/Gitopia_Mainnet/blob/main/README.md#state-sync) (Optional)
 
 
 ### Fourth Stage: Launching via a Service Manager
