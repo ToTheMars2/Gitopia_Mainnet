@@ -4,13 +4,13 @@ Snapshots allows a new node to join the network by recovering application state 
 
 
 
-  <tr>
+ 
 
-   <td>Mavpa</td>
-   <td>MIRASH</td>
-   <td>GOVE</td>
+<td>Mavpa</td>
+<td>MIRASH</td>
+<td>GOVE</td>
 
-  </tr>
+
 
 
 dksljflskdjf
