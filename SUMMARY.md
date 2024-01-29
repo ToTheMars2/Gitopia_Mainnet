@@ -1,7 +1,14 @@
 # Table of contents
 
 * [MAINNET](README.md)
-  * [Gitopia](readme/snapshot/README.md)
-    * [install](readme/snapshot/install.md)
-    * [State sync](readme/snapshot/state-sync.md)
-    * [Snapshot](readme/snapshot/snapshot.md)
+
+## Mainnet
+
+* [Gitopia](mainnet/snapshot/README.md)
+  * [install](mainnet/snapshot/install.md)
+  * [State sync](mainnet/snapshot/state-sync.md)
+  * [Snapshot](mainnet/snapshot/snapshot.md)
+
+## Testnet
+
+* [Lava](testnet/lava.md)
