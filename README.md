@@ -121,7 +121,7 @@ gitopia-rpc.tothemars.network:21190
 
 # State Sync
 ```
-SNAP_RPC="http://176.36.248.34:23457"
+SNAP_RPC="https://gitopia-rpc.tothemars.network:443"
 Name_bin="gitopiad"
 Name_config_file=".gitopia"
 Name_service="gitopiad"
