@@ -107,16 +107,16 @@ sudo systemctl restart gitopiad && sudo journalctl -u gitopiad -f -o cat
 
 RPC Endpoin
 ```
-http://176.36.248.34:23457
+https://gitopia-rpc.tothemars.network
 ```
 
 LCD (Rest) API Endpoint
 ```
-http://176.36.248.34:1317
+https://gitopia-api.tothemars.network
 ```
 GRPC Endpoint
 ```
-http://176.36.248.34:9340
+gitopia-rpc.tothemars.network:21190
 ```
 
 # State Sync
