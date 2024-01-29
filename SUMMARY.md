@@ -4,10 +4,10 @@
 
 ## Mainnet
 
-* [Gitopia](mainnet/snapshot/README.md)
-  * [install](mainnet/snapshot/install.md)
-  * [State sync](mainnet/snapshot/state-sync.md)
-  * [Snapshot](mainnet/snapshot/snapshot.md)
+* [Gitopia](mainnet/gitopia/README.md)
+  * [install](mainnet/gitopia/install.md)
+  * [State sync](mainnet/gitopia/state-sync.md)
+  * [Snapshot](mainnet/gitopia/snapshot.md)
 
 ## Testnet
 
