@@ -1,10 +1,10 @@
 # State sync
 
 ```
-SNAP_RPC="https://gitopia-rpc.tothemars.network:443"
-Name_bin="gitopiad"
-Name_config_file=".gitopia"
-Name_service="gitopiad"
+SNAP_RPC="https://uptick-rpc.tothemars.network:443"
+Name_bin="uptickd"
+Name_config_file=".uptickd"
+Name_service="uptick"
 ```
 
 #### Get and configure the state sync information <a href="#get-and-configure-the-state-sync-information" id="get-and-configure-the-state-sync-information"></a>
