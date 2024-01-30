@@ -1,7 +1,7 @@
 # State sync
 
 ```
-SNAP_RPC="https://gitopia-rpc.tothemars.network:443"
+SNAP_RPC="https://blockx-rpc.tothemars.network:443"
 Name_bin="blockxd"
 Name_config_file=".blockxd"
 Name_service="blockx"
