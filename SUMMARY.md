@@ -1,10 +1,8 @@
 # Table of contents
 
-* [MAINNET](README.md)
-
 ## Mainnet
 
-* [Gitopia](mainnet/gitopia/README.md)
+* [Gitopia](README.md)
   * [install](mainnet/gitopia/install.md)
   * [State Sync](mainnet/gitopia/state-sync.md)
   * [Snapshot](mainnet/gitopia/snapshot.md)
@@ -29,7 +27,11 @@
 
 * [Lava](testnet/lava/README.md)
   * [install](testnet/lava/install.md)
+  * [State Sync](testnet/lava/state-sync.md)
+  * [Snapshot](testnet/lava/snapshot.md)
 * [Hypersign](testnet/hypersign/README.md)
   * [install](testnet/hypersign/install.md)
+  * [State Sync](testnet/hypersign/state-sync.md)
+  * [Snapshot](testnet/hypersign/snapshot.md)
 * [Namada](testnet/namada/README.md)
   * [install](testnet/namada/install.md)
