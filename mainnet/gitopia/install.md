@@ -31,11 +31,11 @@ gitopiad config chain-id gitopia
 gitopiad init #Your_Moniker# --chain-id gitopia
 ```
 
-Installing Genesis and Addrbook&#x20;
+Installing Genesis and Addrbook
 
-```
-// Some code
-```
+<pre><code><strong>wget https://configurations.tothemars.network/genesis-mainnet-gitopia.json -O $HOME/.gitopia/config/genesis.json
+</strong>wget https://configurations.tothemars.network/addrbook-mainnet-gitopia.json -O $HOME/.gitopia/config/addrbook.json
+</code></pre>
 
 Creating a Service Manager
 
@@ -56,3 +56,5 @@ LimitNOFILE=4096
 WantedBy=multi-user.target
 EOF
 ```
+
+For quick synchronization, you can use **State Sync** or **Snatshot**
