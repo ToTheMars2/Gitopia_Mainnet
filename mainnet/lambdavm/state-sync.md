@@ -1,10 +1,10 @@
 # State sync
 
 ```
-SNAP_RPC="https://gitopia-rpc.tothemars.network:443"
-Name_bin="gitopiad"
-Name_config_file=".gitopia"
-Name_service="gitopiad"
+SNAP_RPC="https://lambdavm-rpc.tothemars.network:443"
+Name_bin="lambdavm"
+Name_config_file=".lambdavm"
+Name_service="lambdavm"
 ```
 
 #### Get and configure the state sync information <a href="#get-and-configure-the-state-sync-information" id="get-and-configure-the-state-sync-information"></a>
