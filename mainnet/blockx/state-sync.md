@@ -2,9 +2,9 @@
 
 ```
 SNAP_RPC="https://gitopia-rpc.tothemars.network:443"
-Name_bin="gitopiad"
-Name_config_file=".gitopia"
-Name_service="gitopiad"
+Name_bin="blockxd"
+Name_config_file=".blockxd"
+Name_service="blockx"
 ```
 
 #### Get and configure the state sync information <a href="#get-and-configure-the-state-sync-information" id="get-and-configure-the-state-sync-information"></a>
