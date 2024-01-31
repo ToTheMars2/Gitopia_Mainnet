@@ -11,6 +11,7 @@ sudo apt install jq build-essential bsdmainutils ncdu gcc git-core chrony liblz4
 sudo apt install original-awk uidmap dbus-user-session protobuf-compiler unzip -y
 sudo apt install libudev-dev
 ```
+
 ```
 cd $HOME
   sudo apt update
@@ -22,6 +23,7 @@ cd $HOME
 cargo --version
 node -v
 ```
+
 ```  
 if ! [ -x "$(command -v go)" ]; then
   ver="1.20.5"
@@ -111,17 +113,16 @@ sudo systemctl enable namadad
 ```
 
 #-----------------------------------------------------------------------------
-#ONLY for PRE genesis validator
-#IF YOU NOT A PRE GEN VALIDATOR SKIP THIS SECTION
+# ONLY for PRE genesis validator
+# IF YOU NOT A PRE GEN VALIDATOR SKIP THIS SECTION
 ```
 namada client utils join-network --chain-id $NAMADA_CHAIN_ID --genesis-validator $VALIDATOR_ALIAS
 sudo systemctl restart namadad && sudo journalctl -u namadad -f -o cat
 ```
 
-#end for PRE genesis validator
 #-----------------------------------------------------------------------------
 
-#run fullnode post-genesis
+# Run fullnode post-genesis
 ```
 cd $HOME && namada client utils join-network --chain-id $NAMADA_CHAIN_ID
 sudo systemctl start namadad && sudo journalctl -u namadad -f -o cat
