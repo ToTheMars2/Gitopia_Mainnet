@@ -1,8 +1,6 @@
 # install
 
-## namada setup  
-
-# install update and libs
+## install update and libs
 ```
 cd $HOME
 sudo apt update && sudo apt upgrade -y
@@ -11,7 +9,7 @@ sudo apt install jq build-essential bsdmainutils ncdu gcc git-core chrony liblz4
 sudo apt install original-awk uidmap dbus-user-session protobuf-compiler unzip -y
 sudo apt install libudev-dev
 ```
-
+## install cargo and nodejs
 ```
 cd $HOME
   sudo apt update
@@ -23,7 +21,7 @@ cd $HOME
 cargo --version
 node -v
 ```
-
+## install go
 ```  
 if ! [ -x "$(command -v go)" ]; then
   ver="1.20.5"
@@ -38,6 +36,7 @@ fi
 
 go version
 ```
+## install protoc
 ```
 cd $HOME && rustup update
 PROTOC_ZIP=protoc-23.3-linux-x86_64.zip
@@ -48,6 +47,7 @@ rm -f $PROTOC_ZIP
 
 protoc --version
 ```
+## Add new variables
 ```
 #CHECK your vars in /.bash_profile and change if they not correctly
 sed -i '/public-testnet/d' "$HOME/.bash_profile"
@@ -69,6 +69,7 @@ echo "export EMAIL=your_validator_email" >> ~/.bash_profile
 
 source ~/.bash_profile
 ```
+## install binaries
 ```
 cd $HOME && git clone https://github.com/anoma/namada && cd namada && git checkout $NAMADA_TAG
 make build-release
@@ -87,6 +88,7 @@ cp "$HOME/namada/target/release/namadar" /usr/local/bin/namadar
 cometbft version
 namada --version
 ```
+## Create service
 ```
 #Make service
 sudo tee /etc/systemd/system/namadad.service > /dev/null <<EOF
@@ -112,15 +114,12 @@ sudo systemctl daemon-reload
 sudo systemctl enable namadad
 ```
 
-#-----------------------------------------------------------------------------
 # ONLY for PRE genesis validator
 # IF YOU NOT A PRE GEN VALIDATOR SKIP THIS SECTION
 ```
 namada client utils join-network --chain-id $NAMADA_CHAIN_ID --genesis-validator $VALIDATOR_ALIAS
 sudo systemctl restart namadad && sudo journalctl -u namadad -f -o cat
 ```
-
-#-----------------------------------------------------------------------------
 
 # Run fullnode post-genesis
 ```
