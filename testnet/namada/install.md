@@ -2,7 +2,7 @@
 
 ## namada setup  
 
-#install update and libs
+# install update and libs
 ```
 cd $HOME
 sudo apt update && sudo apt upgrade -y
