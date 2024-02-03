@@ -1,5 +1,6 @@
 # State sync
 
+#### Changes for configuration
 ```
 SNAP_RPC="https://blockx-rpc.tothemars.network:443"
 Name_bin="blockxd"
