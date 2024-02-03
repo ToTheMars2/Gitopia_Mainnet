@@ -65,7 +65,7 @@ cp ~/go/bin/$Name_bin ~/$Name_config_file/cosmovisor/genesis/bin
 #### Creating a Service Manager
 
 ```
-tee <<EOF > /dev/null /etc/systemd/system/$Name_service.service
+sudo tee <<EOF > /dev/null /etc/systemd/system/$Name_service.service
 [Unit]
 Description=Gitopia daemon
 After=network-online.target
@@ -94,7 +94,7 @@ EOF
 #### Creating a Service Manager
 
 ```
-tee <<EOF > /dev/null /etc/systemd/system/$Name_service.service
+sudo tee <<EOF > /dev/null /etc/systemd/system/$Name_service.service
 [Unit]
 Description=Gitopia daemon
 After=network-online.target
