@@ -1,5 +1,6 @@
 # Snapshot
 
+#### Changes for configuration
 ```
 Name_bin="blockxd"
 Name_config_file=".blockxd"
