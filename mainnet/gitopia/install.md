@@ -41,8 +41,8 @@ $Name_bin init $MONIKER --chain-id gitopia
 
 #### Installing Genesis and Addrbook
 
-<pre><code>wget https://configurations.tothemars.network/genesis-mainnet-gitopia.json -O $HOME/.gitopia/config/genesis.json
-wget https://configurations.tothemars.network/addrbook-mainnet-gitopia.json -O $HOME/.gitopia/config/addrbook.json
+<pre><code>wget https://configurations.tothemars.network/genesis-mainnet-gitopia.json -O $HOME/$Name_config_file/config/genesis.json
+wget https://configurations.tothemars.network/addrbook-mainnet-gitopia.json -O $HOME/$Name_config_file/config/addrbook.json
 </code></pre>
 
 
