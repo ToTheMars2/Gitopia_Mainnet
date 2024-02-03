@@ -34,20 +34,22 @@ https://github.com/gitopia/mainnet/raw/master/genesis.tar.gz
 
 ### Public API
 
-#### RPC
-
+{% tabs %}
+{% tab title="RPC" %}
 ```
 https://gitopia-rpc.tothemars.network
 ```
+{% endtab %}
 
-#### API
-
+{% tab title="API" %}
 ```
 https://gitopia-api.tothemars.network
 ```
+{% endtab %}
 
-#### GRPC
-
+{% tab title="GRPC" %}
 ```
 gitopia-grpc.tothemars.network:21190
 ```
+{% endtab %}
+{% endtabs %}
