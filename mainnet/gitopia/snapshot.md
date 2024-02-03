@@ -1,9 +1,10 @@
 # Snapshot
 
+#### Changes for configuration
 ```
 Name_bin="gitopiad"
 Name_config_file=".gitopia"
-Name_service="gitopiad"
+Name_service="gitopia"
 ```
 
 #### Stop the service and reset the data <a href="#stop-the-service-and-reset-the-data" id="stop-the-service-and-reset-the-data"></a>
