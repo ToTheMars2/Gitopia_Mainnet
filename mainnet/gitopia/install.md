@@ -37,6 +37,13 @@ Installing Genesis and Addrbook
 </strong>wget https://configurations.tothemars.network/addrbook-mainnet-gitopia.json -O $HOME/.gitopia/config/addrbook.json
 </code></pre>
 
+
+<details>
+  <summary><b>Using Cosmovisor Method</b></summary>
+</details>
+<details open>
+  <summary><b>Using Binary Method</b></summary>
+
 Creating a Service Manager
 
 ```
@@ -56,5 +63,7 @@ LimitNOFILE=4096
 WantedBy=multi-user.target
 EOF
 ```
+
+</details>
 
 For quick synchronization, you can use **State Sync** or **Snatshot**
