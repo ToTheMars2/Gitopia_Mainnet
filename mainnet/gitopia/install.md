@@ -1,18 +1,18 @@
 # install
 
-Package Installation (optional if already installed)
+#### Package Installation (optional if already installed)
 
 ```
 apt install jq ufw gcc curl git libssl-dev libc6-dev pkg-config make screen -y
 ```
 
-Installing Go (optional if already installed)
+#### Installing Go (optional if already installed)
 
 ```
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/ToTheMars2/Update_programs/main/update_go.sh)" -- "1.21.0"
 ```
 
-Changes for configuration
+#### Changes for configuration
 ```
 Name_bin="gitopiad"
 Name_config_file=".gitopia"
@@ -20,7 +20,7 @@ Name_service="gitopia"
 MONIKER=""
 ```
 
-Binary Installation
+#### Binary Installation
 
 ```
 version=v3.3.0
@@ -32,14 +32,14 @@ make install
 
 ```
 
-Initialization of the Binary
+#### Initialization of the Binary
 
 ```
 $Name_bin config chain-id gitopia
 $Name_bin init $MONIKER --chain-id gitopia
 ```
 
-Installing Genesis and Addrbook
+#### Installing Genesis and Addrbook
 
 <pre><code><strong>wget https://configurations.tothemars.network/genesis-mainnet-gitopia.json -O $HOME/.gitopia/config/genesis.json
 </strong>wget https://configurations.tothemars.network/addrbook-mainnet-gitopia.json -O $HOME/.gitopia/config/addrbook.json
@@ -49,12 +49,12 @@ Installing Genesis and Addrbook
 <details>
   <summary><b>Using Cosmovisor Method</b></summary>
 
-Install Cosmovisor
+#### Install Cosmovisor
 ```
 go install github.com/cosmos/cosmos-sdk/cosmovisor/cmd/cosmovisor@v1.0.0
 ```
 
-# Create Cosmovisor Folders && copy Binary to Cosmovisor
+#### Create Cosmovisor Folders && copy Binary to Cosmovisor
 ```
 mkdir -p ~/$Name_config_file/cosmovisor/genesis/bin
 mkdir -p ~/$Name_config_file/cosmovisor/upgrades
@@ -62,7 +62,7 @@ mkdir -p ~/$Name_config_file/cosmovisor/upgrades
 cp ~/go/bin/$Name_bin ~/$Name_config_file/cosmovisor/genesis/bin
 ```
 
-Creating a Service Manager
+#### Creating a Service Manager
 
 ```
 tee <<EOF > /dev/null /etc/systemd/system/$Name_service.service
@@ -91,7 +91,7 @@ EOF
 <details open>
   <summary><b>Using Binary Method</b></summary>
 
-Creating a Service Manager
+#### Creating a Service Manager
 
 ```
 tee <<EOF > /dev/null /etc/systemd/system/$Name_service.service
