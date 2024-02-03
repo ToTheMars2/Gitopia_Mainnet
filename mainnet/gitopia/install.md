@@ -40,6 +40,44 @@ Installing Genesis and Addrbook
 
 <details>
   <summary><b>Using Cosmovisor Method</b></summary>
+
+Install Cosmovisor
+```
+go install github.com/cosmos/cosmos-sdk/cosmovisor/cmd/cosmovisor@v1.0.0
+```
+# Create Cosmovisor Folders && copy Binary to Cosmovisor
+```
+mkdir -p ~/.gitopia/cosmovisor/genesis/bin
+mkdir -p ~/.gitopia/cosmovisor/upgrades
+
+cp ~/go/bin/gitopiad ~/.gitopia/cosmovisor/genesis/bin
+```
+
+Creating a Service Manager
+
+```
+tee <<EOF > /dev/null /etc/systemd/system/gitopiad.service
+[Unit]
+Description=Gitopia daemon
+After=network-online.target
+
+[Service]
+User=$User
+ExecStart=$(which cosmovisor) start
+Restart=on-failure
+RestartSec=3
+LimitNOFILE=4096
+Environment="DAEMON_NAME=gitopiad"
+Environment="DAEMON_HOME=/home/USER/.gitopia"
+Environment="DAEMON_ALLOW_DOWNLOAD_BINARIES=false"
+Environment="DAEMON_RESTART_AFTER_UPGRADE=true"
+Environment="UNSAFE_SKIP_BACKUP=true"
+
+
+[Install]
+WantedBy=multi-user.target
+EOF
+```
 </details>
 <details open>
   <summary><b>Using Binary Method</b></summary>
