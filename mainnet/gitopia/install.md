@@ -18,6 +18,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/ToTheMars2/Update_progra
 </strong>Name_config_file=".gitopia" 
 Name_service="gitopia"
 Port_prefix=266
+version=v3.3.0
 
 MONIKER=""
 </code></pre>
@@ -30,26 +31,17 @@ MONIKER=""
 
 ```
 sed -i '/Name_bin=/d' "$HOME/.gitopia_config"
-
 sed -i '/Name_config_file=/d' "$HOME/.gitopia_config"
-
 sed -i '/Name_service=/d' "$HOME/.gitopia_config"
-
 sed -i '/Port_prefix=/d' "$HOME/.gitopia_config"
-
 sed -i '/version=/d' "$HOME/.gitopia_config"
 
 
 echo "Name_bin='gitopiad'" >> "$HOME/.gitopia_config"
-
 echo "Name_config_file='.gitopia'" >> "$HOME/.gitopia_config"
-
 echo "Name_service='gitopia'" >> "$HOME/.gitopia_config"
-
 echo "Port_prefix='266'" >> "$HOME/.gitopia_config"
-
 echo "version=v3.3.0" >> "$HOME/.gitopia_config"
-
 source "$HOME/.gitopia_config"
 
 ```
@@ -59,15 +51,10 @@ source "$HOME/.gitopia_config"
 #### Binary Installation
 
 ```
-version=v3.3.0
-```
-
-```
 git clone https://github.com/gitopia/gitopia.git
 cd gitopia
 git checkout $version
 make install
-
 ```
 
 #### Initialization of the Binary
