@@ -13,17 +13,23 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/ToTheMars2/Update_progra
 ```
 
 #### Changes for configuration
-```
-Name_bin="gitopiad"
-Name_config_file=".gitopia"
-Name_service="gitopia"
+
+<pre><code><strong>Name_bin="gitopiad" 
+</strong>Name_config_file=".gitopia" 
+Name_service="gitopia" 
+
 MONIKER=""
-```
+</code></pre>
+
+#### Creating a configuration file (in the future, you will only need to use `source .gitopia_config` to work with my scripts) (Optional)
+
+
 
 #### Binary Installation
 
 ```
-version=v3.3.0
+version=v3.3.0 >> .config_gitopia
+source .config_gitopia
 
 git clone https://github.com/gitopia/gitopia.git
 cd gitopia
@@ -41,20 +47,23 @@ $Name_bin init $MONIKER --chain-id gitopia
 
 #### Installing Genesis and Addrbook
 
-<pre><code>wget https://configurations.tothemars.network/genesis-mainnet-gitopia.json -O $HOME/$Name_config_file/config/genesis.json
+```
+wget https://configurations.tothemars.network/genesis-mainnet-gitopia.json -O $HOME/$Name_config_file/config/genesis.json
 wget https://configurations.tothemars.network/addrbook-mainnet-gitopia.json -O $HOME/$Name_config_file/config/addrbook.json
-</code></pre>
-
+```
 
 <details>
-  <summary><b>Using Cosmovisor Method</b></summary>
 
-#### Install Cosmovisor
+<summary>Using Cosmovisor Method</summary>
+
+**Install Cosmovisor**
+
 ```
 go install github.com/cosmos/cosmos-sdk/cosmovisor/cmd/cosmovisor@v1.0.0
 ```
 
-#### Create Cosmovisor Folders && copy Binary to Cosmovisor
+**Create Cosmovisor Folders && copy Binary to Cosmovisor**
+
 ```
 mkdir -p ~/$Name_config_file/cosmovisor/genesis/bin
 mkdir -p ~/$Name_config_file/cosmovisor/upgrades
@@ -62,7 +71,7 @@ mkdir -p ~/$Name_config_file/cosmovisor/upgrades
 cp ~/go/bin/$Name_bin ~/$Name_config_file/cosmovisor/genesis/bin
 ```
 
-#### Creating a Service Manager
+**Creating a Service Manager**
 
 ```
 sudo tee <<EOF > /dev/null /etc/systemd/system/$Name_service.service
@@ -87,11 +96,14 @@ Environment="UNSAFE_SKIP_BACKUP=true"
 WantedBy=multi-user.target
 EOF
 ```
-</details>
-<details open>
-  <summary><b>Using Binary Method</b></summary>
 
-#### Creating a Service Manager
+</details>
+
+<details>
+
+<summary>Using Binary Method</summary>
+
+**Creating a Service Manager**
 
 ```
 sudo tee <<EOF > /dev/null /etc/systemd/system/$Name_service.service
