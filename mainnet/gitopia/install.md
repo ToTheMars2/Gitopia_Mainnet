@@ -71,7 +71,7 @@ Description=Gitopia daemon
 After=network-online.target
 
 [Service]
-User=$User
+User=$USER
 ExecStart=$(which cosmovisor) start
 Restart=on-failure
 RestartSec=3
@@ -100,7 +100,7 @@ Description=Gitopia daemon
 After=network-online.target
 
 [Service]
-User=$User
+User=$USER
 ExecStart=$(which $Name_bin) start
 Restart=on-failure
 RestartSec=3
