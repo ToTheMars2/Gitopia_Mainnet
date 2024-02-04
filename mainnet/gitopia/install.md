@@ -24,7 +24,7 @@ MONIKER=""
 #### Creating a configuration file (in the future, you will only need to use `source .gitopia_config` to work with my scripts) (Optional)
 
 <details>
-
+  <summary>Details</summary>
 ```
 sed -i '/Name_bin=/d' "$HOME/.gitopia_config"
 
