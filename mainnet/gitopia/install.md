@@ -16,7 +16,8 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/ToTheMars2/Update_progra
 
 <pre><code><strong>Name_bin="gitopiad" 
 </strong>Name_config_file=".gitopia" 
-Name_service="gitopia" 
+Name_service="gitopia"
+Port_prefix=266
 
 MONIKER=""
 </code></pre>
@@ -24,8 +25,9 @@ MONIKER=""
 #### Creating a configuration file (in the future, you will only need to use `source .gitopia_config` to work with my scripts) (Optional)
 
 <details>
-  <summary>Details</summary>
-  
+
+<summary>Details</summary>
+
 ```
 sed -i '/Name_bin=/d' "$HOME/.gitopia_config"
 
@@ -59,6 +61,7 @@ source "$HOME/.gitopia_config"
 ```
 version=v3.3.0
 ```
+
 ```
 git clone https://github.com/gitopia/gitopia.git
 cd gitopia
@@ -79,6 +82,26 @@ $Name_bin init $MONIKER --chain-id gitopia
 ```
 wget https://configurations.tothemars.network/genesis-mainnet-gitopia.json -O $HOME/$Name_config_file/config/genesis.json
 wget https://configurations.tothemars.network/addrbook-mainnet-gitopia.json -O $HOME/$Name_config_file/config/addrbook.json
+```
+
+#### Ports replacement
+
+<pre><code><strong>New_Port_prefix=200
+</strong></code></pre>
+
+With this command you can check whether the ports \
+you want to change are busy
+
+```
+sudo netstat -tulpn | sed -n '/'$New_Port_prefix'58/p; /'$New_Port_prefix'57/p; /'$New_Port_prefix'56/p; /'$New_Port_prefix'60/p; /'$New_Port_prefix'90/p; /'$New_Port_prefix'91/p;'
+```
+
+Сhanging ports
+
+```
+sed -i 's/26658/'$New_Port_prefix'58/; s/26657/'$New_Port_prefix'57/; s/26656/'$New_Port_prefix'56/; s/6060/6'$New_Port_prefix'60/;' ~/$Name_config_file/config/config.toml
+sed -i 's/9090/'$New_Port_prefix'90/; s/8545/'$New_Port_prefix'45/; s/8546/'$New_Port_prefix'46/; s/1317/'$New_Port_prefix'17/; s/9091/'$New_Port_prefix'91/' ~/$Name_config_file/config/app.toml
+$Name_bin config node http://localhost:2$(echo $New_Port_prefix)57
 ```
 
 <details>
