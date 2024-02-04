@@ -25,6 +25,7 @@ MONIKER=""
 
 <details>
   <summary>Details</summary>
+  
 ```
 sed -i '/Name_bin=/d' "$HOME/.gitopia_config"
 
