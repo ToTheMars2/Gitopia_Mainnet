@@ -23,14 +23,42 @@ MONIKER=""
 
 #### Creating a configuration file (in the future, you will only need to use `source .gitopia_config` to work with my scripts) (Optional)
 
+<details>
 
+```
+sed -i '/Name_bin=/d' "$HOME/.gitopia_config"
+
+sed -i '/Name_config_file=/d' "$HOME/.gitopia_config"
+
+sed -i '/Name_service=/d' "$HOME/.gitopia_config"
+
+sed -i '/Port_prefix=/d' "$HOME/.gitopia_config"
+
+sed -i '/version=/d' "$HOME/.gitopia_config"
+
+
+echo "Name_bin='gitopiad'" >> "$HOME/.gitopia_config"
+
+echo "Name_config_file='.gitopia'" >> "$HOME/.gitopia_config"
+
+echo "Name_service='gitopia'" >> "$HOME/.gitopia_config"
+
+echo "Port_prefix='266'" >> "$HOME/.gitopia_config"
+
+echo "version=v3.3.0" >> "$HOME/.gitopia_config"
+
+source "$HOME/.gitopia_config"
+
+```
+
+</details>
 
 #### Binary Installation
 
 ```
-version=v3.3.0 >> .config_gitopia
-source .config_gitopia
-
+version=v3.3.0
+```
+```
 git clone https://github.com/gitopia/gitopia.git
 cd gitopia
 git checkout $version
