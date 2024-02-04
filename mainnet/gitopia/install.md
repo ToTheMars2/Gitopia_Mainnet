@@ -3,7 +3,7 @@
 #### Package Installation (optional if already installed)
 
 ```
-sudo apt install jq ufw gcc curl git libssl-dev libc6-dev pkg-config make screen -y
+sudo apt install jq ufw gcc curl git libssl-dev libc6-dev pkg-config make screen net-tools -y
 ```
 
 #### Installing Go (optional if already installed)
