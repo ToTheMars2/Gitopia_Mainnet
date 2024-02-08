@@ -14,14 +14,14 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/ToTheMars2/Update_progra
 
 #### Changes for configuration
 
-<pre><code><strong>Name_bin="gitopiad" 
-</strong>Name_config_file=".gitopia" 
-Name_service="gitopia"
-Port_prefix=266
+```
+Name_bin="gitopiad" 
+Name_config_file=".gitopia" 
+Name_service="gitopia"    
 version=v3.3.0
 
 MONIKER=""
-</code></pre>
+```
 
 #### Creating a configuration file (in the future, you will only need to use `source .gitopia_config` to work with my scripts) (Optional)
 
@@ -73,8 +73,9 @@ wget https://configurations.tothemars.network/addrbook-mainnet-gitopia.json -O $
 
 #### Ports replacement
 
-<pre><code><strong>New_Port_prefix=200
-</strong></code></pre>
+```
+New_Port_prefix=200
+```
 
 With this command you can check whether the ports \
 you want to change are busy
