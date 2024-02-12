@@ -28,7 +28,7 @@ MONIKER=""
 <details>
 
 <summary>Details</summary>
-centaurid composable .banksy
+
 ```
 sed -i '/bin=/d' "$HOME/.composable_config"
 sed -i '/config_file=/d' "$HOME/.composable_config"
