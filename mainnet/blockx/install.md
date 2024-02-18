@@ -20,6 +20,32 @@ Name_service="blockx"
 MONIKER=""
 ```
 
+#### Creating a configuration file (in the future, you will only need to use `source .blockx_config` to work with my scripts) (**OPTIONAL**)
+
+<details>
+
+<summary>Details</summary>
+
+```
+sed -i '/bin=/d' "$HOME/.blockx_config"
+sed -i '/config_file=/d' "$HOME/.blockx_config"
+sed -i '/service=/d' "$HOME/.blockx_config"
+sed -i '/port=/d' "$HOME/.blockx_config"
+sed -i '/version=/d' "$HOME/.blockx_config"
+
+
+echo "bin='blockxd'" >> "$HOME/.blockx_config"
+echo "config_file='.blockx'" >> "$HOME/.blockx_config"
+echo "service='blockx'" >> "$HOME/.blockx_config"
+echo "port='266'" >> "$HOME/.blockx_config"
+echo "version=c940d186c0d118ea017f6abc00225fdd9b26fe14" >> "$HOME/.blockx_config"
+echo "chainId=blockx_100-1" >> "$HOME/.blockx_config"
+source "$HOME/.blockx_config"
+
+```
+
+</details>
+
 #### Binary Installation
 
 ```
