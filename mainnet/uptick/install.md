@@ -1,41 +1,5 @@
 # install
 
-Package Installation (optional if already installed)
-
-```
-apt install jq ufw gcc curl git libssl-dev libc6-dev pkg-config make screen -y
-```
-
-Installing Go (optional if already installed)
-
-```
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/ToTheMars2/Update_programs/main/update_go.sh)" -- "1.21.0"
-```
-
-Binary Installation
-
-```
-version=v0.2.17
-
-git clone https://github.com/UptickNetwork/uptick.git
-cd uptick
-git checkout $version
-make install
-
-```
-
-Initialization of the Binary
-
-```
-uptickd config chain-id uptick_117-1
-uptickd init #Your_Moniker# --chain-id uptick_117-1
-```
-
-
-
-
-# install
-
 #### Package Installation (optional if already installed)
 
 ```
