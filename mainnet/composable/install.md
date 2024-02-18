@@ -42,7 +42,7 @@ echo "config_file='.banksy'" >> "$HOME/.composable_config"
 echo "service='composable'" >> "$HOME/.composable_config"
 echo "port='266'" >> "$HOME/.composable_config"
 echo "version=v6.4.3" >> "$HOME/.composable_config"
-echo "chainId=gitopia" >> "$HOME/.composable_config"
+echo "chainId=centauri-1" >> "$HOME/.composable_config"
 source "$HOME/.composable_config"
 
 ```
@@ -61,15 +61,15 @@ make install
 #### Initialization of the Binary
 
 ```
-$bin config chain-id gitopia
-$bin init $MONIKER --chain-id gitopia
+$bin config chain-id centauri-1
+$bin init $MONIKER --chain-id centauri-1
 ```
 
 #### Installing Genesis and Addrbook
 
 ```
-wget https://configurations.tothemars.network/genesis-mainnet-gitopia.json -O $HOME/$config/config/genesis.json
-wget https://configurations.tothemars.network/addrbook-mainnet-gitopia.json -O $HOME/$config/config/addrbook.json
+wget https://configurations.tothemars.network/genesis-mainnet-composable.json -O $HOME/$config/config/genesis.json
+wget https://configurations.tothemars.network/addrbook-mainnet-composable.json -O $HOME/$config/config/addrbook.json
 ```
 
 #### Ports replacement
@@ -124,7 +124,7 @@ cp ~/go/bin/$bin ~/$config/cosmovisor/genesis/bin
 ```
 sudo tee <<EOF > /dev/null /etc/systemd/system/$service.service
 [Unit]
-Description=Gitopia daemon
+Description=Composable daemon
 After=network-online.target
 
 [Service]
@@ -156,7 +156,7 @@ EOF
 ```
 sudo tee <<EOF > /dev/null /etc/systemd/system/$service.service
 [Unit]
-Description=Gitopia daemon
+Description=Composable daemon
 After=network-online.target
 
 [Service]
