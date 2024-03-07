@@ -1,6 +1,20 @@
 # Gitopia
 
+### Network information
 
+| Chain-id                         | Version                         | Staking Denom                  |
+| -------------------------------- | ------------------------------- | ------------------------------ |
+| <pre><code>gitopia
+</code></pre> | <pre><code>v3.3.0
+</code></pre> | <pre><code>ulore
+</code></pre> |
+
+| Binary Name                       | Binary Home                       | Denom Exponent             |
+| --------------------------------- | --------------------------------- | -------------------------- |
+| <pre><code>gitopiad
+</code></pre> | <pre><code>.gitopia
+</code></pre> | <pre><code>6
+</code></pre> |
 
 {% tabs %}
 {% tab title="Explorer" %}
@@ -20,21 +34,6 @@
 {% endtab %}
 {% endtabs %}
 
-### Network information
-
-| Chain-id                         | Version                         | Staking Denom                  |
-| -------------------------------- | ------------------------------- | ------------------------------ |
-| <pre><code>gitopia
-</code></pre> | <pre><code>v3.3.0
-</code></pre> | <pre><code>ulore
-</code></pre> |
-
-| Binary Name                       | Binary Home                       | Denom Exponent             |
-| --------------------------------- | --------------------------------- | -------------------------- |
-| <pre><code>gitopiad
-</code></pre> | <pre><code>.gitopia
-</code></pre> | <pre><code>6
-</code></pre> |
 
 {% tabs %}
 {% tab title="Genesis" %}
