@@ -6,10 +6,7 @@
 
 | Chain-id                         | Version                         | Staking Denom                  |
 | -------------------------------- | ------------------------------- | ------------------------------ |
-| <pre><code>gitopia
-</code></pre> | <pre><code>v3.3.0
-</code></pre> | <pre><code>ulore
-</code></pre> |
+| <pre><code>gitopia</code></pre> | <pre><code>v3.3.0</code></pre> | <pre><code>ulore</code></pre> |
 
 | Binary Name                       | Binary Home                       | Denom Exponent             |
 | --------------------------------- | --------------------------------- | -------------------------- |
