@@ -47,14 +47,22 @@ https://configurations.tothemars.network/genesis-mainnet-blockx.json
 
 #### Public API
 
+{% tabs %}
+{% tab title="RPC" %}
 ```
 https://blockx-rpc.tothemars.network
 ```
+{% endtab %}
 
+{% tab title="API" %}
 ```
 https://blockx-api.tothemars.network
 ```
+{% endtab %}
 
+{% tab title="GRPC" %}
 ```
 blockx-grpc.tothemars.network:21190
 ```
+{% endtab %}
+{% endtabs %}
