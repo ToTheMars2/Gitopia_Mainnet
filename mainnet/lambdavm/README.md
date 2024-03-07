@@ -1,22 +1,14 @@
 # Lambdavm
 
-# Uptick
-
 #### Network information
 
 | Chain-id                                | Version                           | Staking Denom                    |
 | --------------------------------------- | --------------------------------- | -------------------------------- |
-| <pre><code> uptick_117-1 
-</code></pre> | <pre><code>v0.2.18 
-</code></pre> | <pre><code>auptick
-</code></pre> |
+| <pre><code> uptick_117-1  </code></pre> | <pre><code>v0.2.18  </code></pre> | <pre><code>auptick </code></pre> |
 
 | Binary Name                       | Binary Home                        | Denom Exponent               |
 | --------------------------------- | ---------------------------------- | ---------------------------- |
-| <pre><code>uptickd 
-</code></pre> | <pre><code>.uptickd 
-</code></pre> | <pre><code>18 
-</code></pre> |
+| <pre><code> uptickd </code></pre> | <pre><code> .uptickd </code></pre> | <pre><code> 18 </code></pre> |
 
 {% tabs %}
 {% tab title="Explorer" %}
