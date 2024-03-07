@@ -1,5 +1,7 @@
 # Gitopia
 
+
+
 ### Network information
 
 | Chain-id                         | Version                         | Staking Denom                  |
@@ -16,23 +18,6 @@
 </code></pre> | <pre><code>6
 </code></pre> |
 
-{% tabs %}
-{% tab title="Explorer" %}
-[https://explorer.tothemars.network/gitopia](https://explorer.tothemars.network/gitopia)
-{% endtab %}
-
-{% tab title="Project Website" %}
-[https://gitopia.com](https://gitopia.com/)
-{% endtab %}
-
-{% tab title="Github" %}
-[https://github.com/gitopia/gitopia](https://github.com/gitopia/gitopia)
-{% endtab %}
-
-{% tab title="Discord" %}
-[https://discord.gg/s8NEAdkZkt](https://discord.gg/s8NEAdkZkt)
-{% endtab %}
-{% endtabs %}
 
 
 {% tabs %}
