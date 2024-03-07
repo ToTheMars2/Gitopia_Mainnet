@@ -52,19 +52,19 @@ https://configurations.tothemars.network/genesis-mainnet-uptick.json
 {% tabs %}
 {% tab title="RPC" %}
 ```
-https://gitopia-rpc.tothemars.network
+https://uptick-rpc.tothemars.network
 ```
 {% endtab %}
 
 {% tab title="API" %}
 ```
-https://gitopia-api.tothemars.network
+https://uptick-api.tothemars.network
 ```
 {% endtab %}
 
 {% tab title="GRPC" %}
 ```
-gitopia-grpc.tothemars.network:21190
+uptick-grpc.tothemars.network:21190
 ```
 {% endtab %}
 {% endtabs %}
