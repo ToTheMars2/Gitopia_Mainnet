@@ -2,10 +2,10 @@
 
 #### Network information
 
-| Chain-id                                | Version                           | Staking Denom                    |
-| --------------------------------------- | --------------------------------- | -------------------------------- |
+| Chain-id                                | Version                          | Staking Denom                    |
+| --------------------------------------- | -------------------------------- | -------------------------------- |
 | <pre><code> uptick_117-1 
-</code></pre> | <pre><code>v0.2.18 
+</code></pre> | <pre><code>v0.2.19
 </code></pre> | <pre><code>auptick
 </code></pre> |
 

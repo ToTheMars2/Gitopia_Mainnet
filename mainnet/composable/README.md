@@ -2,41 +2,47 @@
 
 #### Network information
 
-| Chain-id                                | Version                           | Staking Denom                    |
-| --------------------------------------- | --------------------------------- | -------------------------------- |
-| <pre><code> uptick_117-1  </code></pre> | <pre><code>v0.2.18  </code></pre> | <pre><code>auptick </code></pre> |
+| Chain-id                            | Version                         | Staking Denom                   |
+| ----------------------------------- | ------------------------------- | ------------------------------- |
+| <pre><code>centauri-1
+</code></pre> | <pre><code>v6.4.3
+</code></pre> | <pre><code>ppica 
+</code></pre> |
 
-| Binary Name                       | Binary Home                        | Denom Exponent               |
-| --------------------------------- | ---------------------------------- | ---------------------------- |
-| <pre><code> uptickd </code></pre> | <pre><code> .uptickd </code></pre> | <pre><code> 18 </code></pre> |
+| Binary Name                        | Binary Home                      | Denom Exponent                |
+| ---------------------------------- | -------------------------------- | ----------------------------- |
+| <pre><code>centaurid
+</code></pre> | <pre><code>.banksy
+</code></pre> | <pre><code> 18 
+</code></pre> |
 
 {% tabs %}
 {% tab title="Explorer" %}
-[https://explorer.tothemars.network/uptick](https://explorer.tothemars.network/uptick)
+[https://explorer.tothemars.network/composable](https://explorer.tothemars.network/composable)
 {% endtab %}
 
 {% tab title="Project Website" %}
-[https://www.uptick.network](https://www.uptick.network/)
+None
 {% endtab %}
 
 {% tab title="Github" %}
-[https://github.com/UptickNetwork/uptick](https://github.com/UptickNetwork/uptick)
+[https://github.com/notional-labs/composable-centauri](https://github.com/notional-labs/composable-centauri)
 {% endtab %}
 
 {% tab title="Discord" %}
-None
+[https://discord.gg/composable](https://discord.gg/composable)
 {% endtab %}
 {% endtabs %}
 
 {% tabs %}
 {% tab title="Genesis" %}
 ```
-https://configurations.tothemars.network/genesis-mainnet-uptick.json
+https://configurations.tothemars.network/genesis-mainnet-composable.json
 ```
 {% endtab %}
 
 {% tab title="Addrbook" %}
-<pre><code><strong>https://configurations.tothemars.network/addrbook-mainnet-uptick.json
+<pre><code><strong>https://configurations.tothemars.network/addrbook-mainnet-composable.json
 </strong></code></pre>
 {% endtab %}
 {% endtabs %}
@@ -46,18 +52,19 @@ https://configurations.tothemars.network/genesis-mainnet-uptick.json
 {% tabs %}
 {% tab title="RPC" %}
 ```
-https://uptick-rpc.tothemars.network
+https://composable-rpc.tothemars.network
 ```
 {% endtab %}
 
 {% tab title="API" %}
 ```
-https://uptick-api.tothemars.network
+https://composable-api.tothemars.network
 ```
 {% endtab %}
 
 {% tab title="GRPC" %}
 ```
-uptick-grpc.tothemars.network:21190
+composable-grpc.tothemars.network:21190
 ```
 {% endtab %}
+{% endtabs %}

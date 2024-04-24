@@ -2,13 +2,19 @@
 
 #### Network information
 
-| Chain-id                                | Version                           | Staking Denom                    |
-| --------------------------------------- | --------------------------------- | -------------------------------- |
-| <pre><code> uptick_117-1  </code></pre> | <pre><code>v0.2.18  </code></pre> | <pre><code>auptick </code></pre> |
+| Chain-id                                | Version                           | Staking Denom                  |
+| --------------------------------------- | --------------------------------- | ------------------------------ |
+| <pre><code>lava-testnet-2
+</code></pre> | <pre><code>v1.0.1  
+</code></pre> | <pre><code>ulava
+</code></pre> |
 
-| Binary Name                       | Binary Home                        | Denom Exponent               |
-| --------------------------------- | ---------------------------------- | ---------------------------- |
-| <pre><code> uptickd </code></pre> | <pre><code> .uptickd </code></pre> | <pre><code> 18 </code></pre> |
+| Binary Name                    | Binary Home                    | Denom Exponent              |
+| ------------------------------ | ------------------------------ | --------------------------- |
+| <pre><code>lavad
+</code></pre> | <pre><code>.lava
+</code></pre> | <pre><code>6 
+</code></pre> |
 
 {% tabs %}
 {% tab title="Explorer" %}
@@ -31,33 +37,26 @@ None
 {% tabs %}
 {% tab title="Genesis" %}
 ```
-https://configurations.tothemars.network/genesis-mainnet-uptick.json
+https://configurations.tothemars.network/genesis-mainnet-lava.json
 ```
 {% endtab %}
 
 {% tab title="Addrbook" %}
-<pre><code><strong>https://configurations.tothemars.network/addrbook-mainnet-uptick.json
+<pre><code><strong>https://configurations.tothemars.network/addrbook-mainnet-lava.json
 </strong></code></pre>
 {% endtab %}
 {% endtabs %}
 
 #### Public API
 
-{% tabs %}
-{% tab title="RPC" %}
 ```
-https://uptick-rpc.tothemars.network
+https://lava-rpc.tothemars.network
 ```
-{% endtab %}
 
-{% tab title="API" %}
 ```
-https://uptick-api.tothemars.network
+https://lava-api.tothemars.network
 ```
-{% endtab %}
 
-{% tab title="GRPC" %}
 ```
-uptick-grpc.tothemars.network:21190
+lava-grpc.tothemars.network:21190
 ```
-{% endtab %}

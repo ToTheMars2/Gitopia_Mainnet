@@ -15,7 +15,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/ToTheMars2/Update_progra
 Binary Installation
 
 ```
-version=v0.34.0
+version=v1.0.1
 
 git clone https://github.com/lavanet/lava
 cd lava
