@@ -22,6 +22,8 @@
   * [install](mainnet/lambdavm/install.md)
   * [State Sync](mainnet/lambdavm/state-sync.md)
   * [Snapshot](mainnet/lambdavm/snapshot.md)
+ * [Bitsong](README.md)
+  * [install](mainnet/bitsong/install.md)
 
 ## Testnet
 
