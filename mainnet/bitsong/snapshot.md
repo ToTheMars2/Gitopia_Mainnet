@@ -1,9 +1,9 @@
 # Snapshot
 
 ```
-Name_bin="uptickd"
-Name_config_file=".uptickd"
-Name_service="uptick"
+Name_bin="bitsongd"
+Name_config_file=".bitsongd"
+Name_service="bitsong-mainnet"
 ```
 
 #### Stop the service and reset the data <a href="#stop-the-service-and-reset-the-data" id="stop-the-service-and-reset-the-data"></a>
