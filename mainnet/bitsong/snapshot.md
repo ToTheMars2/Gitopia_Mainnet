@@ -1,5 +1,5 @@
-# Snapshot
-
+# Snapshot 
+### (Snapshots are taken automatically every 24 hours)
 ```
 Name_bin="bitsongd"
 Name_config_file=".bitsongd"
