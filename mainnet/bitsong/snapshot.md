@@ -17,8 +17,8 @@ rm -rf $HOME/$Name_config_file/data
 #### Download latest snapshot <a href="#download-latest-snapshot" id="download-latest-snapshot"></a>
 
 ```
-wget https://configurations.tothemars.network/snapshot_gitopia.tar.lz4 --inet4-only
-lz4 -c -d snapshot_gitopia.tar.lz4  | tar -x -C $HOME/$Name_config_file
+wget https://configurations.tothemars.network/last_snapshot_bitsong.tar.lz4 --inet4-only
+lz4 -c -d last_snapshot_bitsong.tar.tar.lz4  | tar -x -C $HOME/$Name_config_file
 mv $HOME/$Name_config_file/priv_validator_state.json.backup $HOME/$Name_config_file/data/priv_validator_state.json
 ```
 
