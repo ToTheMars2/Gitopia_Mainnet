@@ -45,6 +45,12 @@ https://configurations.tothemars.network/genesis-mainnet-bitsong.json
 <pre><code><strong>https://configurations.tothemars.network/addrbook-mainnet-bitsong.json
 </strong></code></pre>
 {% endtab %}
+
+{% tab title="Seed" %}
+```
+91706fd6ec45e38661ba7bb7567fc572b738c3ea@bitsong-seed.tothemars.network:60356
+```
+{% endtab %}
 {% endtabs %}
 
 #### Public API
