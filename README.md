@@ -5,7 +5,7 @@
 | Chain-id                          | Version                          | Staking Denom                  |
 | --------------------------------- | -------------------------------- | ------------------------------ |
 | <pre><code>gitopia 
-</code></pre> | <pre><code>v3.3.0 
+</code></pre> | <pre><code>v5.1.0 
 </code></pre> | <pre><code>ulore
 </code></pre> |
 

@@ -5,7 +5,7 @@
 | Chain-id                            | Version                          | Staking Denom                  |
 | ----------------------------------- | -------------------------------- | ------------------------------ |
 | <pre><code>bitsong-2b
-</code></pre> | <pre><code>v0.17.0
+</code></pre> | <pre><code>v0.18.0
 </code></pre> | <pre><code>ubtsg
 </code></pre> |
 
