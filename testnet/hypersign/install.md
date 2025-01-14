@@ -15,7 +15,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/ToTheMars2/Update_progra
 Binary Installation
 
 ```
-version=v0.2.17
+version=v0.3.0
 
 git clone https://github.com/hypersign-protocol/hid-node
 cd hid-node
@@ -33,14 +33,14 @@ hid-noded init #Your_Moniker# --chain-id prajna-1
 
 Installing Genesis and Addrbook
 
-<pre><code><strong>wget https://configurations.tothemars.network/genesis-mainnet-hypersign.json -O $HOME/.hid-node/config/genesis.json
-</strong>wget https://configurations.tothemars.network/addrbook-mainnet-hypersign.json -O $HOME/.hid-node/config/addrbook.json
+<pre><code><strong>wget https://configurations.tothemars.network/genesis-testnet-hypersign.json -O $HOME/.hid-node/config/genesis.json
+</strong>wget https://configurations.tothemars.network/addrbook-testnet-hypersign.json -O $HOME/.hid-node/config/addrbook.json
 </code></pre>
 
 Creating a Service Manager
 
 ```
-tee <<EOF > /dev/null /etc/systemd/system/hypersign.service
+tee <<EOF > /dev/null /etc/systemd/system/hypersign-testnet.service
 [Unit]
 Description=Hypersign daemon
 After=network-online.target

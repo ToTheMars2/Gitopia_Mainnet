@@ -2,62 +2,61 @@
 
 #### Network information
 
-| Chain-id                                | Version                           | Staking Denom                    |
-| --------------------------------------- | --------------------------------- | -------------------------------- |
-| <pre><code> uptick_117-1  </code></pre> | <pre><code>v0.2.18  </code></pre> | <pre><code>auptick </code></pre> |
+| Chain-id                          | Version                         | Staking Denom                 |
+| --------------------------------- | ------------------------------- | ----------------------------- |
+| <pre><code>prajna-1
+</code></pre> | <pre><code>v0.3.0
+</code></pre> | <pre><code>uhid
+</code></pre> |
 
-| Binary Name                       | Binary Home                        | Denom Exponent               |
-| --------------------------------- | ---------------------------------- | ---------------------------- |
-| <pre><code> uptickd </code></pre> | <pre><code> .uptickd </code></pre> | <pre><code> 18 </code></pre> |
+| Binary Name                        | Binary Home                        | Denom Exponent             |
+| ---------------------------------- | ---------------------------------- | -------------------------- |
+| <pre><code>hid-noded
+</code></pre> | <pre><code>.hid-node
+</code></pre> | <pre><code>6
+</code></pre> |
 
 {% tabs %}
 {% tab title="Explorer" %}
-[https://explorer.tothemars.network/uptick](https://explorer.tothemars.network/uptick)
+[https://explorer.hypersign.id/hypersign-prajna-testnet](https://explorer.hypersign.id/hypersign-prajna-testnet)
 {% endtab %}
 
 {% tab title="Project Website" %}
-[https://www.uptick.network](https://www.uptick.network/)
+[https://www.hypersign.id](https://www.hypersign.id/)
 {% endtab %}
 
 {% tab title="Github" %}
-[https://github.com/UptickNetwork/uptick](https://github.com/UptickNetwork/uptick)
+[https://github.com/hypersign-protocol/hid-node](https://github.com/hypersign-protocol/hid-node)
 {% endtab %}
 
 {% tab title="Discord" %}
-None
+[https://discord.gg/MMnhBYjF4N](https://discord.gg/MMnhBYjF4N)
 {% endtab %}
 {% endtabs %}
 
 {% tabs %}
 {% tab title="Genesis" %}
 ```
-https://configurations.tothemars.network/genesis-mainnet-uptick.json
+https://configurations.tothemars.network/genesis-testnet-hypersign.json
 ```
 {% endtab %}
 
 {% tab title="Addrbook" %}
-<pre><code><strong>https://configurations.tothemars.network/addrbook-mainnet-uptick.json
+<pre><code><strong>https://configurations.tothemars.network/addrbook-testnet-hypersign.json
 </strong></code></pre>
 {% endtab %}
 {% endtabs %}
 
 #### Public API
 
-{% tabs %}
-{% tab title="RPC" %}
 ```
-https://uptick-rpc.tothemars.network
+https://hypersign-rpc.tothemars.network
 ```
-{% endtab %}
 
-{% tab title="API" %}
 ```
-https://uptick-api.tothemars.network
+https://hypersign-api.tothemars.network
 ```
-{% endtab %}
 
-{% tab title="GRPC" %}
 ```
-uptick-grpc.tothemars.network:21190
+hypersign-grpc.tothemars.network:21190
 ```
-{% endtab %}
